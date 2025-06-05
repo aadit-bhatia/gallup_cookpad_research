@@ -1,0 +1,11 @@
+national_cooking_trends_summary:
+
+This summary table takes the average of each question prompt across national totals, by year. Rows are color-coded to help distinguish binary yes/no responses from numerical, days/week responses. 
+
+Cooking_by_country.html:
+
+A line plot with nations toggleable, so that we can see the change over time across the dataset for any given nation. For the selected nations here, I chose varied income levels and geographic spreads to show similarities/differences across these dimensions. Here specifically, this allows us to see the strong cultural impact between nations cooking frequency -- Italy and Greece, two meditteranean nations, have similarly high rates of home lunch consumption, while Hong Kong, a more urban nation with comparable incomes has far lower days per week where lunch is cooked at home. I am able to select any combination of countries to create the plot. 
+
+Cooking_chloropleth.html: This plot shows the user a map the average number of days dinner is cooked at home in the past week in each nation, subsetted to only urban respondents. This also shows the regional trends mentioned above, but highlights outliers without needing the user to input the nations they are interested in. For example, urban residents in Chile are much less likely to cook dinners at home than the rest of Latin America. This plot can also be toggled, so I can send any combination of years, data subsets, and question prompts, and return a similar choropleth map with no additional code. 
+
+gini_cooking_days.html: This plot uses the 5 income quintiles to create a pseudo-gini coefficient of inequality in cooking days between the quintiles. Higher values indicate one quintile has a greater than proportional number, while closer to 0 indicates that cooking days are homogenous across quintiles.
