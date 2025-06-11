@@ -1,0 +1,8 @@
+- GDP per capita PPP
+- Regional Dummys
+- Govt regulations on food advertising/proxies for ultra processed food consumption
+- SDGs: Maybe add controls for stunting/ figures for children under 5 vs adult population
+    - Obesity rates under 5
+- Rural/urban
+- Run regressions by subset(education, wealth, rural/urban)  - note sample size 
+- Add regression-specific plots
